@@ -7,15 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50067912BA0F735005C8C56 /* StudentsLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067902BA0F735005C8C56 /* StudentsLecturerViewController.swift */; };
+		F50067952BA0FA6D005C8C56 /* StudentsLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067942BA0FA6D005C8C56 /* StudentsLectureTableViewCell.swift */; };
+		F50067972BA10D49005C8C56 /* GroupsLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067962BA10D49005C8C56 /* GroupsLecturerViewController.swift */; };
+		F50067992BA10DEA005C8C56 /* GroupsLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067982BA10DEA005C8C56 /* GroupsLectureTableViewCell.swift */; };
+		F500679B2BA112CC005C8C56 /* FirmsLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500679A2BA112CC005C8C56 /* FirmsLectureViewController.swift */; };
+		F500679D2BA115A8005C8C56 /* FirmsLectureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500679C2BA115A8005C8C56 /* FirmsLectureCollectionViewCell.swift */; };
+		F500679F2BA11FD2005C8C56 /* FormsLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500679E2BA11FD2005C8C56 /* FormsLectureViewController.swift */; };
+		F50067A12BA1207E005C8C56 /* FormsLectureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067A02BA1207E005C8C56 /* FormsLectureCollectionViewCell.swift */; };
+		F50067A32BA12739005C8C56 /* SurveysLectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067A22BA12739005C8C56 /* SurveysLectureViewController.swift */; };
+		F50067A52BA127C3005C8C56 /* SurveyLectureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50067A42BA127C3005C8C56 /* SurveyLectureCollectionViewCell.swift */; };
+		F50900662BB5B47100447176 /* AddTalentCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50900652BB5B47100447176 /* AddTalentCustomViewController.swift */; };
+		F50D7BD22C08ECCA0036F35D /* AdvertFirstInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50D7BD12C08ECCA0036F35D /* AdvertFirstInfoModel.swift */; };
+		F516F0192BCACB70002F0FC3 /* ReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F516F0182BCACB70002F0FC3 /* ReportModel.swift */; };
+		F52502FB2BA48E30003DB3C7 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52502FA2BA48E30003DB3C7 /* CustomAlertViewController.swift */; };
+		F52502FE2BA4912A003DB3C7 /* CustomAlertGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52502FD2BA4912A003DB3C7 /* CustomAlertGroupTableViewCell.swift */; };
+		F52A5A6C2BA73806006CCEC2 /* PostViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A5A6B2BA73806006CCEC2 /* PostViewTableViewCell.swift */; };
+		F52A5A6E2BA75448006CCEC2 /* ReportStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A5A6D2BA75448006CCEC2 /* ReportStudentViewController.swift */; };
+		F52A5A702BA754E6006CCEC2 /* ReportStudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A5A6F2BA754E6006CCEC2 /* ReportStudentTableViewCell.swift */; };
+		F52A5A722BA7585C006CCEC2 /* ReportCustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A5A712BA7585C006CCEC2 /* ReportCustomAlertViewController.swift */; };
+		F52F81EB2B97AAFB00D5A156 /* FormsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52F81EA2B97AAFB00D5A156 /* FormsCollectionViewCell.swift */; };
 		F54332D02B91FCF9008EE5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54332CF2B91FCF9008EE5BC /* AppDelegate.swift */; };
 		F54332D22B91FCF9008EE5BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54332D12B91FCF9008EE5BC /* SceneDelegate.swift */; };
 		F54332D42B91FCF9008EE5BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54332D32B91FCF9008EE5BC /* ViewController.swift */; };
 		F54332D72B91FCF9008EE5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54332D52B91FCF9008EE5BC /* Main.storyboard */; };
 		F54332D92B91FCFA008EE5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54332D82B91FCFA008EE5BC /* Assets.xcassets */; };
 		F54332DC2B91FCFA008EE5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54332DA2B91FCFA008EE5BC /* LaunchScreen.storyboard */; };
+		F547A4D72BEF7CA0003C4461 /* LecturerDBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547A4D62BEF7CA0003C4461 /* LecturerDBAccess.swift */; };
+		F547A4D92BEF84C3003C4461 /* LecturerDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547A4D82BEF84C3003C4461 /* LecturerDB.swift */; };
+		F547A4DB2BF227F0003C4461 /* PersonInfoLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547A4DA2BF227F0003C4461 /* PersonInfoLecturerViewController.swift */; };
+		F547A4DD2BF22E3B003C4461 /* LecturerPersonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547A4DC2BF22E3B003C4461 /* LecturerPersonInfoModel.swift */; };
+		F547A4DF2BF24516003C4461 /* PasswordCustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547A4DE2BF24516003C4461 /* PasswordCustomAlertViewController.swift */; };
+		F54D547C2C067323003585D3 /* AdvertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D547B2C067323003585D3 /* AdvertModel.swift */; };
+		F551BC9A2BFFBB990026312C /* FirmDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551BC992BFFBB990026312C /* FirmDescViewController.swift */; };
+		F551BC9C2BFFE6DB0026312C /* FirmFirstViewInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551BC9B2BFFE6DB0026312C /* FirmFirstViewInfoModel.swift */; };
+		F551BC9E2C01EE200026312C /* AdvertsFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551BC9D2C01EE200026312C /* AdvertsFirmViewController.swift */; };
+		F551BCA02C01EEDE0026312C /* AdvertsFirmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551BC9F2C01EEDE0026312C /* AdvertsFirmTableViewCell.swift */; };
+		F55ED18A2BA2030100F339D7 /* SideMenuFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED1892BA2030100F339D7 /* SideMenuFirmViewController.swift */; };
+		F55ED18C2BA209BF00F339D7 /* StudentsFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED18B2BA209BF00F339D7 /* StudentsFirmViewController.swift */; };
+		F55ED18F2BA20B0700F339D7 /* StudentsFirmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED18E2BA20B0700F339D7 /* StudentsFirmsTableViewCell.swift */; };
+		F55ED1952BA231DD00F339D7 /* HomePageFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED1942BA231DD00F339D7 /* HomePageFirmViewController.swift */; };
+		F55ED1972BA2346F00F339D7 /* FormFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED1962BA2346F00F339D7 /* FormFirmViewController.swift */; };
+		F55ED1992BA234BE00F339D7 /* FormFirmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED1982BA234BE00F339D7 /* FormFirmCollectionViewCell.swift */; };
+		F55ED19B2BA2387500F339D7 /* SurveyFirmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED19A2BA2387500F339D7 /* SurveyFirmCollectionViewCell.swift */; };
+		F55ED19D2BA238FC00F339D7 /* SurveyFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED19C2BA238FC00F339D7 /* SurveyFirmViewController.swift */; };
+		F55ED19F2BA24EA900F339D7 /* SignInLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED19E2BA24EA900F339D7 /* SignInLecturerViewController.swift */; };
+		F55ED1A12BA24FC300F339D7 /* SignInFirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55ED1A02BA24FC300F339D7 /* SignInFirmViewController.swift */; };
+		F56461012B9F7A81005C48F5 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56461002B9F7A81005C48F5 /* SurveyViewController.swift */; };
+		F56461032B9F7B55005C48F5 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56461022B9F7B55005C48F5 /* SurveyCollectionViewCell.swift */; };
+		F56461082B9F9186005C48F5 /* HomePageLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56461072B9F9186005C48F5 /* HomePageLecturerViewController.swift */; };
+		F564610A2B9F919D005C48F5 /* SideMenuLecturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56461092B9F919D005C48F5 /* SideMenuLecturerViewController.swift */; };
+		F58327A32BAC6959005DEA15 /* StudentDBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58327A22BAC6959005DEA15 /* StudentDBAccess.swift */; };
+		F5903B732BAE14F500CDC371 /* StudentPersonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5903B722BAE14F500CDC371 /* StudentPersonInfoModel.swift */; };
+		F5903B752BAE17DE00CDC371 /* StudentDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5903B742BAE17DE00CDC371 /* StudentDB.swift */; };
+		F59F5FF32BF8C488005C319E /* FirmDBAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5FF22BF8C488005C319E /* FirmDBAccess.swift */; };
+		F59F5FF52BF8C7EA005C319E /* FirmDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5FF42BF8C7EA005C319E /* FirmDB.swift */; };
+		F59F5FF72BF8C94F005C319E /* FirmInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5FF62BF8C94F005C319E /* FirmInfoModel.swift */; };
+		F5B0C9902BA059EA009E36E2 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = F5B0C98F2BA059EA009E36E2 /* PostgresClientKit */; };
+		F5B0C9932BA05A34009E36E2 /* ConnectPostgreSql.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B0C9922BA05A34009E36E2 /* ConnectPostgreSql.swift */; };
+		F5BB21E92B936E6700179778 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB21E72B936E6700179778 /* SWRevealViewController.m */; };
+		F5BB21EB2B936ED800179778 /* FirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB21EA2B936ED800179778 /* FirmViewController.swift */; };
+		F5BB21ED2B936EE500179778 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB21EC2B936EE500179778 /* SideMenuViewController.swift */; };
+		F5BB21EF2B936F1F00179778 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB21EE2B936F1F00179778 /* HomePageViewController.swift */; };
+		F5BB21F32B93DDD900179778 /* FirmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB21F22B93DDD900179778 /* FirmCollectionViewCell.swift */; };
+		F5C037B12BA38DA000A238DE /* PersonInfoStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C037B02BA38DA000A238DE /* PersonInfoStudentViewController.swift */; };
+		F5C065862B921103002D0FC3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C065852B921103002D0FC3 /* SignInViewController.swift */; };
+		F5CFCB682C01F2C0002F4611 /* AddorUpdateAdvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CFCB672C01F2BF002F4611 /* AddorUpdateAdvertViewController.swift */; };
+		F5ECFFF62BADCEA70049CD8F /* StudentTalentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ECFFF52BADCEA70049CD8F /* StudentTalentsTableViewCell.swift */; };
+		F5FCC3F72BB702BB00343342 /* TalentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FCC3F62BB702BB00343342 /* TalentsModel.swift */; };
+		F5FF92772B979A2F003978E9 /* FormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FF92762B979A2F003978E9 /* FormsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50067902BA0F735005C8C56 /* StudentsLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsLecturerViewController.swift; sourceTree = "<group>"; };
+		F50067942BA0FA6D005C8C56 /* StudentsLectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsLectureTableViewCell.swift; sourceTree = "<group>"; };
+		F50067962BA10D49005C8C56 /* GroupsLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsLecturerViewController.swift; sourceTree = "<group>"; };
+		F50067982BA10DEA005C8C56 /* GroupsLectureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsLectureTableViewCell.swift; sourceTree = "<group>"; };
+		F500679A2BA112CC005C8C56 /* FirmsLectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmsLectureViewController.swift; sourceTree = "<group>"; };
+		F500679C2BA115A8005C8C56 /* FirmsLectureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmsLectureCollectionViewCell.swift; sourceTree = "<group>"; };
+		F500679E2BA11FD2005C8C56 /* FormsLectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsLectureViewController.swift; sourceTree = "<group>"; };
+		F50067A02BA1207E005C8C56 /* FormsLectureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsLectureCollectionViewCell.swift; sourceTree = "<group>"; };
+		F50067A22BA12739005C8C56 /* SurveysLectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysLectureViewController.swift; sourceTree = "<group>"; };
+		F50067A42BA127C3005C8C56 /* SurveyLectureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyLectureCollectionViewCell.swift; sourceTree = "<group>"; };
+		F50900652BB5B47100447176 /* AddTalentCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTalentCustomViewController.swift; sourceTree = "<group>"; };
+		F50D7BD12C08ECCA0036F35D /* AdvertFirstInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertFirstInfoModel.swift; sourceTree = "<group>"; };
+		F516F0182BCACB70002F0FC3 /* ReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportModel.swift; sourceTree = "<group>"; };
+		F52502FA2BA48E30003DB3C7 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		F52502FD2BA4912A003DB3C7 /* CustomAlertGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertGroupTableViewCell.swift; sourceTree = "<group>"; };
+		F52A5A6B2BA73806006CCEC2 /* PostViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewTableViewCell.swift; sourceTree = "<group>"; };
+		F52A5A6D2BA75448006CCEC2 /* ReportStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportStudentViewController.swift; sourceTree = "<group>"; };
+		F52A5A6F2BA754E6006CCEC2 /* ReportStudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportStudentTableViewCell.swift; sourceTree = "<group>"; };
+		F52A5A712BA7585C006CCEC2 /* ReportCustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCustomAlertViewController.swift; sourceTree = "<group>"; };
+		F52F81EA2B97AAFB00D5A156 /* FormsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsCollectionViewCell.swift; sourceTree = "<group>"; };
 		F54332CC2B91FCF9008EE5BC /* GaziOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaziOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54332CF2B91FCF9008EE5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F54332D12B91FCF9008EE5BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +107,50 @@
 		F54332D82B91FCFA008EE5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54332DB2B91FCFA008EE5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54332DD2B91FCFA008EE5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F547A4D62BEF7CA0003C4461 /* LecturerDBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturerDBAccess.swift; sourceTree = "<group>"; };
+		F547A4D82BEF84C3003C4461 /* LecturerDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturerDB.swift; sourceTree = "<group>"; };
+		F547A4DA2BF227F0003C4461 /* PersonInfoLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoLecturerViewController.swift; sourceTree = "<group>"; };
+		F547A4DC2BF22E3B003C4461 /* LecturerPersonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturerPersonInfoModel.swift; sourceTree = "<group>"; };
+		F547A4DE2BF24516003C4461 /* PasswordCustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCustomAlertViewController.swift; sourceTree = "<group>"; };
+		F54D547B2C067323003585D3 /* AdvertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertModel.swift; sourceTree = "<group>"; };
+		F551BC992BFFBB990026312C /* FirmDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmDescViewController.swift; sourceTree = "<group>"; };
+		F551BC9B2BFFE6DB0026312C /* FirmFirstViewInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmFirstViewInfoModel.swift; sourceTree = "<group>"; };
+		F551BC9D2C01EE200026312C /* AdvertsFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertsFirmViewController.swift; sourceTree = "<group>"; };
+		F551BC9F2C01EEDE0026312C /* AdvertsFirmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertsFirmTableViewCell.swift; sourceTree = "<group>"; };
+		F55ED1892BA2030100F339D7 /* SideMenuFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuFirmViewController.swift; sourceTree = "<group>"; };
+		F55ED18B2BA209BF00F339D7 /* StudentsFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsFirmViewController.swift; sourceTree = "<group>"; };
+		F55ED18E2BA20B0700F339D7 /* StudentsFirmsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsFirmsTableViewCell.swift; sourceTree = "<group>"; };
+		F55ED1942BA231DD00F339D7 /* HomePageFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageFirmViewController.swift; sourceTree = "<group>"; };
+		F55ED1962BA2346F00F339D7 /* FormFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFirmViewController.swift; sourceTree = "<group>"; };
+		F55ED1982BA234BE00F339D7 /* FormFirmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFirmCollectionViewCell.swift; sourceTree = "<group>"; };
+		F55ED19A2BA2387500F339D7 /* SurveyFirmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFirmCollectionViewCell.swift; sourceTree = "<group>"; };
+		F55ED19C2BA238FC00F339D7 /* SurveyFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyFirmViewController.swift; sourceTree = "<group>"; };
+		F55ED19E2BA24EA900F339D7 /* SignInLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInLecturerViewController.swift; sourceTree = "<group>"; };
+		F55ED1A02BA24FC300F339D7 /* SignInFirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFirmViewController.swift; sourceTree = "<group>"; };
+		F56461002B9F7A81005C48F5 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		F56461022B9F7B55005C48F5 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F56461072B9F9186005C48F5 /* HomePageLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageLecturerViewController.swift; sourceTree = "<group>"; };
+		F56461092B9F919D005C48F5 /* SideMenuLecturerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuLecturerViewController.swift; sourceTree = "<group>"; };
+		F58327A22BAC6959005DEA15 /* StudentDBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDBAccess.swift; sourceTree = "<group>"; };
+		F5903B722BAE14F500CDC371 /* StudentPersonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPersonInfoModel.swift; sourceTree = "<group>"; };
+		F5903B742BAE17DE00CDC371 /* StudentDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDB.swift; sourceTree = "<group>"; };
+		F59F5FF22BF8C488005C319E /* FirmDBAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmDBAccess.swift; sourceTree = "<group>"; };
+		F59F5FF42BF8C7EA005C319E /* FirmDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmDB.swift; sourceTree = "<group>"; };
+		F59F5FF62BF8C94F005C319E /* FirmInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmInfoModel.swift; sourceTree = "<group>"; };
+		F5B0C9922BA05A34009E36E2 /* ConnectPostgreSql.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPostgreSql.swift; sourceTree = "<group>"; };
+		F5BB21E62B936E6700179778 /* GaziOnline-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GaziOnline-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5BB21E72B936E6700179778 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F5BB21E82B936E6700179778 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F5BB21EA2B936ED800179778 /* FirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmViewController.swift; sourceTree = "<group>"; };
+		F5BB21EC2B936EE500179778 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F5BB21EE2B936F1F00179778 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F5BB21F22B93DDD900179778 /* FirmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5C037B02BA38DA000A238DE /* PersonInfoStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoStudentViewController.swift; sourceTree = "<group>"; };
+		F5C065852B921103002D0FC3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F5CFCB672C01F2BF002F4611 /* AddorUpdateAdvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddorUpdateAdvertViewController.swift; sourceTree = "<group>"; };
+		F5ECFFF52BADCEA70049CD8F /* StudentTalentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTalentsTableViewCell.swift; sourceTree = "<group>"; };
+		F5FCC3F62BB702BB00343342 /* TalentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentsModel.swift; sourceTree = "<group>"; };
+		F5FF92762B979A2F003978E9 /* FormsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +158,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B0C9902BA059EA009E36E2 /* PostgresClientKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F50067922BA0FA24005C8C56 /* StudentModelCells */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB21F22B93DDD900179778 /* FirmCollectionViewCell.swift */,
+				F52F81EA2B97AAFB00D5A156 /* FormsCollectionViewCell.swift */,
+				F56461022B9F7B55005C48F5 /* SurveyCollectionViewCell.swift */,
+				F52A5A6B2BA73806006CCEC2 /* PostViewTableViewCell.swift */,
+				F52A5A6F2BA754E6006CCEC2 /* ReportStudentTableViewCell.swift */,
+				F5ECFFF52BADCEA70049CD8F /* StudentTalentsTableViewCell.swift */,
+			);
+			path = StudentModelCells;
+			sourceTree = "<group>";
+		};
+		F50067932BA0FA3D005C8C56 /* LectureModulCells */ = {
+			isa = PBXGroup;
+			children = (
+				F50067942BA0FA6D005C8C56 /* StudentsLectureTableViewCell.swift */,
+				F50067982BA10DEA005C8C56 /* GroupsLectureTableViewCell.swift */,
+				F500679C2BA115A8005C8C56 /* FirmsLectureCollectionViewCell.swift */,
+				F50067A02BA1207E005C8C56 /* FormsLectureCollectionViewCell.swift */,
+				F50067A42BA127C3005C8C56 /* SurveyLectureCollectionViewCell.swift */,
+			);
+			path = LectureModulCells;
+			sourceTree = "<group>";
+		};
+		F52502F92BA48DBA003DB3C7 /* CustomAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F52502FA2BA48E30003DB3C7 /* CustomAlertViewController.swift */,
+				F52A5A712BA7585C006CCEC2 /* ReportCustomAlertViewController.swift */,
+				F50900652BB5B47100447176 /* AddTalentCustomViewController.swift */,
+				F547A4DE2BF24516003C4461 /* PasswordCustomAlertViewController.swift */,
+				F551BC992BFFBB990026312C /* FirmDescViewController.swift */,
+			);
+			path = CustomAlertViewController;
+			sourceTree = "<group>";
+		};
+		F52502FC2BA490F9003DB3C7 /* CustomAlertCell */ = {
+			isa = PBXGroup;
+			children = (
+				F52502FD2BA4912A003DB3C7 /* CustomAlertGroupTableViewCell.swift */,
+			);
+			path = CustomAlertCell;
+			sourceTree = "<group>";
+		};
 		F54332C32B91FCF9008EE5BC = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +229,146 @@
 		F54332CE2B91FCF9008EE5BC /* GaziOnline */ = {
 			isa = PBXGroup;
 			children = (
+				F5903B712BAE120D00CDC371 /* Model */,
+				F583279F2BAC68A1005DEA15 /* ViewModel */,
+				F5B0C9912BA05A12009E36E2 /* Services */,
+				F5BB21F02B93D80900179778 /* View */,
 				F54332CF2B91FCF9008EE5BC /* AppDelegate.swift */,
 				F54332D12B91FCF9008EE5BC /* SceneDelegate.swift */,
-				F54332D32B91FCF9008EE5BC /* ViewController.swift */,
 				F54332D52B91FCF9008EE5BC /* Main.storyboard */,
+				F5BB21E82B936E6700179778 /* SWRevealViewController.h */,
+				F5BB21E72B936E6700179778 /* SWRevealViewController.m */,
 				F54332D82B91FCFA008EE5BC /* Assets.xcassets */,
 				F54332DA2B91FCFA008EE5BC /* LaunchScreen.storyboard */,
 				F54332DD2B91FCFA008EE5BC /* Info.plist */,
+				F5BB21E62B936E6700179778 /* GaziOnline-Bridging-Header.h */,
 			);
 			path = GaziOnline;
+			sourceTree = "<group>";
+		};
+		F55ED1862BA202A500F339D7 /* FirmModulVC */ = {
+			isa = PBXGroup;
+			children = (
+				F55ED1892BA2030100F339D7 /* SideMenuFirmViewController.swift */,
+				F55ED18B2BA209BF00F339D7 /* StudentsFirmViewController.swift */,
+				F55ED1942BA231DD00F339D7 /* HomePageFirmViewController.swift */,
+				F55ED1962BA2346F00F339D7 /* FormFirmViewController.swift */,
+				F55ED19C2BA238FC00F339D7 /* SurveyFirmViewController.swift */,
+				F55ED1A02BA24FC300F339D7 /* SignInFirmViewController.swift */,
+				F551BC9D2C01EE200026312C /* AdvertsFirmViewController.swift */,
+				F5CFCB672C01F2BF002F4611 /* AddorUpdateAdvertViewController.swift */,
+			);
+			path = FirmModulVC;
+			sourceTree = "<group>";
+		};
+		F55ED18D2BA20AE000F339D7 /* FirmsModuleCells */ = {
+			isa = PBXGroup;
+			children = (
+				F55ED18E2BA20B0700F339D7 /* StudentsFirmsTableViewCell.swift */,
+				F55ED1982BA234BE00F339D7 /* FormFirmCollectionViewCell.swift */,
+				F55ED19A2BA2387500F339D7 /* SurveyFirmCollectionViewCell.swift */,
+				F551BC9F2C01EEDE0026312C /* AdvertsFirmTableViewCell.swift */,
+			);
+			path = FirmsModuleCells;
+			sourceTree = "<group>";
+		};
+		F56461052B9F90A5005C48F5 /* StudentModuleVC */ = {
+			isa = PBXGroup;
+			children = (
+				F54332D32B91FCF9008EE5BC /* ViewController.swift */,
+				F5C065852B921103002D0FC3 /* SignInViewController.swift */,
+				F5BB21EA2B936ED800179778 /* FirmViewController.swift */,
+				F5BB21EC2B936EE500179778 /* SideMenuViewController.swift */,
+				F5BB21EE2B936F1F00179778 /* HomePageViewController.swift */,
+				F5FF92762B979A2F003978E9 /* FormsViewController.swift */,
+				F56461002B9F7A81005C48F5 /* SurveyViewController.swift */,
+				F5C037B02BA38DA000A238DE /* PersonInfoStudentViewController.swift */,
+				F52A5A6D2BA75448006CCEC2 /* ReportStudentViewController.swift */,
+			);
+			path = StudentModuleVC;
+			sourceTree = "<group>";
+		};
+		F56461062B9F911E005C48F5 /* LecturerModuleVC */ = {
+			isa = PBXGroup;
+			children = (
+				F56461072B9F9186005C48F5 /* HomePageLecturerViewController.swift */,
+				F56461092B9F919D005C48F5 /* SideMenuLecturerViewController.swift */,
+				F50067902BA0F735005C8C56 /* StudentsLecturerViewController.swift */,
+				F50067962BA10D49005C8C56 /* GroupsLecturerViewController.swift */,
+				F500679A2BA112CC005C8C56 /* FirmsLectureViewController.swift */,
+				F500679E2BA11FD2005C8C56 /* FormsLectureViewController.swift */,
+				F50067A22BA12739005C8C56 /* SurveysLectureViewController.swift */,
+				F55ED19E2BA24EA900F339D7 /* SignInLecturerViewController.swift */,
+				F547A4DA2BF227F0003C4461 /* PersonInfoLecturerViewController.swift */,
+			);
+			path = LecturerModuleVC;
+			sourceTree = "<group>";
+		};
+		F583279F2BAC68A1005DEA15 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F58327A22BAC6959005DEA15 /* StudentDBAccess.swift */,
+				F59F5FF22BF8C488005C319E /* FirmDBAccess.swift */,
+				F547A4D62BEF7CA0003C4461 /* LecturerDBAccess.swift */,
+				F5903B742BAE17DE00CDC371 /* StudentDB.swift */,
+				F59F5FF42BF8C7EA005C319E /* FirmDB.swift */,
+				F547A4D82BEF84C3003C4461 /* LecturerDB.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F5903B712BAE120D00CDC371 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5903B722BAE14F500CDC371 /* StudentPersonInfoModel.swift */,
+				F5FCC3F62BB702BB00343342 /* TalentsModel.swift */,
+				F516F0182BCACB70002F0FC3 /* ReportModel.swift */,
+				F547A4DC2BF22E3B003C4461 /* LecturerPersonInfoModel.swift */,
+				F59F5FF62BF8C94F005C319E /* FirmInfoModel.swift */,
+				F551BC9B2BFFE6DB0026312C /* FirmFirstViewInfoModel.swift */,
+				F54D547B2C067323003585D3 /* AdvertModel.swift */,
+				F50D7BD12C08ECCA0036F35D /* AdvertFirstInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5B0C9912BA05A12009E36E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5B0C9922BA05A34009E36E2 /* ConnectPostgreSql.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F5BB21F02B93D80900179778 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB21F12B93DDAB00179778 /* Cell */,
+				F5C065842B921072002D0FC3 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5BB21F12B93DDAB00179778 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F52502FC2BA490F9003DB3C7 /* CustomAlertCell */,
+				F55ED18D2BA20AE000F339D7 /* FirmsModuleCells */,
+				F50067932BA0FA3D005C8C56 /* LectureModulCells */,
+				F50067922BA0FA24005C8C56 /* StudentModelCells */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F5C065842B921072002D0FC3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F52502F92BA48DBA003DB3C7 /* CustomAlertViewController */,
+				F55ED1862BA202A500F339D7 /* FirmModulVC */,
+				F56461062B9F911E005C48F5 /* LecturerModuleVC */,
+				F56461052B9F90A5005C48F5 /* StudentModuleVC */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +387,9 @@
 			dependencies = (
 			);
 			name = GaziOnline;
+			packageProductDependencies = (
+				F5B0C98F2BA059EA009E36E2 /* PostgresClientKit */,
+			);
 			productName = GaziOnline;
 			productReference = F54332CC2B91FCF9008EE5BC /* GaziOnline.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +406,7 @@
 				TargetAttributes = {
 					F54332CB2B91FCF9008EE5BC = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -111,6 +419,9 @@
 				Base,
 			);
 			mainGroup = F54332C32B91FCF9008EE5BC;
+			packageReferences = (
+				F5B0C98E2BA059EA009E36E2 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
+			);
 			productRefGroup = F54332CD2B91FCF9008EE5BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +449,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B0C9932BA05A34009E36E2 /* ConnectPostgreSql.swift in Sources */,
+				F50067A52BA127C3005C8C56 /* SurveyLectureCollectionViewCell.swift in Sources */,
+				F50067A12BA1207E005C8C56 /* FormsLectureCollectionViewCell.swift in Sources */,
+				F54D547C2C067323003585D3 /* AdvertModel.swift in Sources */,
+				F5BB21F32B93DDD900179778 /* FirmCollectionViewCell.swift in Sources */,
+				F5BB21EB2B936ED800179778 /* FirmViewController.swift in Sources */,
+				F55ED19B2BA2387500F339D7 /* SurveyFirmCollectionViewCell.swift in Sources */,
+				F551BC9E2C01EE200026312C /* AdvertsFirmViewController.swift in Sources */,
+				F5C065862B921103002D0FC3 /* SignInViewController.swift in Sources */,
+				F55ED18F2BA20B0700F339D7 /* StudentsFirmsTableViewCell.swift in Sources */,
 				F54332D42B91FCF9008EE5BC /* ViewController.swift in Sources */,
+				F55ED1992BA234BE00F339D7 /* FormFirmCollectionViewCell.swift in Sources */,
+				F5C037B12BA38DA000A238DE /* PersonInfoStudentViewController.swift in Sources */,
+				F59F5FF32BF8C488005C319E /* FirmDBAccess.swift in Sources */,
+				F50067972BA10D49005C8C56 /* GroupsLecturerViewController.swift in Sources */,
+				F500679F2BA11FD2005C8C56 /* FormsLectureViewController.swift in Sources */,
+				F52A5A6E2BA75448006CCEC2 /* ReportStudentViewController.swift in Sources */,
+				F52F81EB2B97AAFB00D5A156 /* FormsCollectionViewCell.swift in Sources */,
+				F55ED19F2BA24EA900F339D7 /* SignInLecturerViewController.swift in Sources */,
+				F56461082B9F9186005C48F5 /* HomePageLecturerViewController.swift in Sources */,
+				F52502FE2BA4912A003DB3C7 /* CustomAlertGroupTableViewCell.swift in Sources */,
+				F50067992BA10DEA005C8C56 /* GroupsLectureTableViewCell.swift in Sources */,
+				F58327A32BAC6959005DEA15 /* StudentDBAccess.swift in Sources */,
+				F5FF92772B979A2F003978E9 /* FormsViewController.swift in Sources */,
+				F55ED19D2BA238FC00F339D7 /* SurveyFirmViewController.swift in Sources */,
+				F5BB21E92B936E6700179778 /* SWRevealViewController.m in Sources */,
+				F52502FB2BA48E30003DB3C7 /* CustomAlertViewController.swift in Sources */,
+				F59F5FF52BF8C7EA005C319E /* FirmDB.swift in Sources */,
+				F50900662BB5B47100447176 /* AddTalentCustomViewController.swift in Sources */,
+				F5CFCB682C01F2C0002F4611 /* AddorUpdateAdvertViewController.swift in Sources */,
+				F50067A32BA12739005C8C56 /* SurveysLectureViewController.swift in Sources */,
+				F55ED18C2BA209BF00F339D7 /* StudentsFirmViewController.swift in Sources */,
+				F516F0192BCACB70002F0FC3 /* ReportModel.swift in Sources */,
+				F551BC9A2BFFBB990026312C /* FirmDescViewController.swift in Sources */,
+				F5BB21EF2B936F1F00179778 /* HomePageViewController.swift in Sources */,
+				F59F5FF72BF8C94F005C319E /* FirmInfoModel.swift in Sources */,
+				F55ED1A12BA24FC300F339D7 /* SignInFirmViewController.swift in Sources */,
+				F547A4DB2BF227F0003C4461 /* PersonInfoLecturerViewController.swift in Sources */,
+				F50067952BA0FA6D005C8C56 /* StudentsLectureTableViewCell.swift in Sources */,
+				F551BCA02C01EEDE0026312C /* AdvertsFirmTableViewCell.swift in Sources */,
+				F56461032B9F7B55005C48F5 /* SurveyCollectionViewCell.swift in Sources */,
+				F5BB21ED2B936EE500179778 /* SideMenuViewController.swift in Sources */,
+				F50D7BD22C08ECCA0036F35D /* AdvertFirstInfoModel.swift in Sources */,
+				F52A5A702BA754E6006CCEC2 /* ReportStudentTableViewCell.swift in Sources */,
 				F54332D02B91FCF9008EE5BC /* AppDelegate.swift in Sources */,
+				F5903B752BAE17DE00CDC371 /* StudentDB.swift in Sources */,
+				F52A5A722BA7585C006CCEC2 /* ReportCustomAlertViewController.swift in Sources */,
+				F564610A2B9F919D005C48F5 /* SideMenuLecturerViewController.swift in Sources */,
+				F547A4DF2BF24516003C4461 /* PasswordCustomAlertViewController.swift in Sources */,
+				F5ECFFF62BADCEA70049CD8F /* StudentTalentsTableViewCell.swift in Sources */,
+				F547A4D92BEF84C3003C4461 /* LecturerDB.swift in Sources */,
+				F5903B732BAE14F500CDC371 /* StudentPersonInfoModel.swift in Sources */,
+				F500679B2BA112CC005C8C56 /* FirmsLectureViewController.swift in Sources */,
+				F50067912BA0F735005C8C56 /* StudentsLecturerViewController.swift in Sources */,
+				F551BC9C2BFFE6DB0026312C /* FirmFirstViewInfoModel.swift in Sources */,
+				F55ED18A2BA2030100F339D7 /* SideMenuFirmViewController.swift in Sources */,
+				F52A5A6C2BA73806006CCEC2 /* PostViewTableViewCell.swift in Sources */,
+				F56461012B9F7A81005C48F5 /* SurveyViewController.swift in Sources */,
+				F55ED1952BA231DD00F339D7 /* HomePageFirmViewController.swift in Sources */,
+				F5FCC3F72BB702BB00343342 /* TalentsModel.swift in Sources */,
 				F54332D22B91FCF9008EE5BC /* SceneDelegate.swift in Sources */,
+				F547A4DD2BF22E3B003C4461 /* LecturerPersonInfoModel.swift in Sources */,
+				F500679D2BA115A8005C8C56 /* FirmsLectureCollectionViewCell.swift in Sources */,
+				F55ED1972BA2346F00F339D7 /* FormFirmViewController.swift in Sources */,
+				F547A4D72BEF7CA0003C4461 /* LecturerDBAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +658,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WK5SC3TQ9B;
@@ -303,6 +677,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UmutErol.GaziOnline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GaziOnline/GaziOnline-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +689,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WK5SC3TQ9B;
@@ -331,6 +708,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UmutErol.GaziOnline;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GaziOnline/GaziOnline-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +736,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5B0C98E2BA059EA009E36E2 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5B0C98F2BA059EA009E36E2 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5B0C98E2BA059EA009E36E2 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F54332C42B91FCF9008EE5BC /* Project object */;
 }
